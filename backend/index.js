@@ -13,6 +13,7 @@ app.get("/" , (req , res ) => {
 ); */
 
 app.listen(port, () =>{
-console.log('Example app is listening on port http://localhost:3000');
+// eslint-disable-next-line no-template-curly-in-string
+console.log('Example app is listening on port http://localhost:${port}');
 });
 
